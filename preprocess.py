@@ -65,7 +65,7 @@ def train_test_split():
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output_path', default='/data/fyq/practice_mdd/data')
+    parser.add_argument('--output_path', default='data')
     parser.add_argument('--input_path', default='/data/fyq/TIMIT')
     parser.add_argument('--wav_path', default='/data/fyq/TIMIT/*/*/*/*.wav')
     parser.add_argument('--language', default='l1', choices=['l1','l2'])
